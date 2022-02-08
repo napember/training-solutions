@@ -12,5 +12,8 @@ public class NameMain {
 
         System.out.println("Hello " + prefix.getPre()+ " " + lastName.getLast()+ " " + firstName.getFirst() + "!");
 
+        String fullName = "Hello " + prefix.getPre()+ " " + lastName.getLast()+ " " + firstName.getFirst() + "!";
+        System.out.println( fullName.toUpperCase() );
+
     }
 }
