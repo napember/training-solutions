@@ -13,5 +13,6 @@ public class Operators {
         int rest = number%divisor;
         return Integer.toString(number) + "/" + Integer.toString(divisor) + "=" +
         Integer.toString(iRet) + ", maradék: " + rest;
+
     }
 }
